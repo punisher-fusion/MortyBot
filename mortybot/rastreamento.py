@@ -7,6 +7,7 @@ from correios import Correios
 class Rastreamento:
     def __init__(self, bot):
         self.bot = bot
+		
     @commands.command()
     async def rastrear(self,ctx):
         
